@@ -5,6 +5,7 @@ import TicTacToeBot from '@bot/TicTacToeBot';
 import localize from '@config/localize';
 import GameEntity from '@bot/channel/GameEntity';
 import AI from '@tictactoe/AI';
+import * as qdb from 'quick.db';
 
 /**
  * Manages a channel in which games can be played.
@@ -92,6 +93,7 @@ export default class GameChannel {
                         player: winner.toString()
                     })
                 );
+                qdb.add(`${winner.id}`, 500);
             } else {
                 await this.channel.send(localize.__('game.end'));
             }

@@ -7,23 +7,13 @@ Created with <a href="https://github.com/discordjs/discord.js">discord.js</a>.
 </h4>
 
 <p align="center">
-    <a href="https://github.com/utarwyn/discord-tictactoe/actions">
-        <img src="https://github.com/utarwyn/discord-tictactoe/workflows/Node.js%20CI/badge.svg" alt="Node.js CI">
-    </a>
-    <a href="https://hub.docker.com/r/utarwyn/discord-tictactoe">
-        <img src="https://img.shields.io/docker/cloud/build/utarwyn/discord-tictactoe" alt="Docker Build status">
-    </a>
-    <a href="https://github.com/utarwyn/discord-tictactoe/releases">
-        <img src="https://img.shields.io/github/package-json/v/utarwyn/discord-tictactoe" alt="Npm version">
-    </a>
-    <a href="https://github.com/utarwyn/discord-tictactoe/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/utarwyn/discord-tictactoe" alt="License">
-    </a>
-</p>
-
-<p align="center">
     <img src="https://i.imgur.com/bfl7wwm.gif" alt="demo">
 </p>
+
+A fork of Utarwyn's Discord TicTacToe Bot https://github.com/utarwyn/discord-tictactoe, meant for my custom bot. 
+------------
+
+**This fork gives the `USERID.points` value 500 points for every win
 
 "Discord TicTacToe" is a **self-hosted NodeJS bot** which allows you to play the popular TicTacToe game on Discord.
 Invite your friends or play against our robot, a fearsome opponent. Type `!ttt` to challenge someone else and use reactions to play, so simple!
